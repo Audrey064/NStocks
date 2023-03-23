@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Stock Management</title>
+</head>
+<body>
+
+<p><h3/>list of functions that the user can perform</p>
+<br/><br/><br/>
+
+<table style = "border: 2px solid skyblue ; border-collapse: collapse">
+  <caption style = "border: 2px solid skyblue ; border-collapse: collapse"> Features available</caption>
+  <tr>
+    <th style = "border: 2px solid skyblue ; border-collapse: collapse">id</th>
+    <th style = "border: 2px solid skyblue ; border-collapse: collapse">Description</th>
+    <th style = "border: 2px solid skyblue ; border-collapse: collapse">url</th>
+  </tr>
+
+  <tr>
+    <td style = "border: 2px solid skyblue ; border-collapse: collapse"> 1 </td>
+    <td style = "border: 2px solid skyblue ; border-collapse: collapse"> Display the list of articles : </td>
+    <td style = "border: 2px solid skyblue ; border-collapse: collapse"> localhost:8080/articles/GetAllArticles </td>
+  </tr>
+
+  <tr>
+    <td style = "border: 2px solid skyblue ; border-collapse: collapse"> 2 </td>
+    <td style = "border: 2px solid skyblue ; border-collapse: collapse"> Show all article categories :  </td>
+    <td style = "border: 2px solid skyblue ; border-collapse: collapse"> localhost:8080/articles/GetAllCategories </td>
+  </tr>
+
+
+  <tr>
+    <td style = "border: 2px solid skyblue ; border-collapse: collapse"> 3 </td>
+    <td style = "border: 2px solid skyblue ; border-collapse: collapse"> Search an article by its reference : </td>
+    <td style = "border: 2px solid skyblue ; border-collapse: collapse"> localhost:8080/articles/GetArticlesByReference/{ref}  </td>
+  </tr>
+
+  <tr>
+    <td style = "border: 2px solid skyblue ; border-collapse: collapse"> 4 </td>
+    <td style = "border: 2px solid skyblue ; border-collapse: collapse"> Search an article by its name: </td>
+    <td style = "border: 2px solid skyblue ; border-collapse: collapse"> localhost:8080/GetArticlesByName/{name} </td>
+  </tr>
+
+  <tr>
+    <td style = "border: 2px solid skyblue ; border-collapse: collapse"> 5 </td>
+    <td style = "border: 2px solid skyblue ; border-collapse: collapse"> Display the list of articles in a category :  </td>
+    <td style = "border: 2px solid skyblue ; border-collapse: collapse"> localhost:8080/articles/SearchArticlesByCategory/{category} </td>
+  </tr>
+
+  <tr>
+    <td style = "border: 2px solid skyblue ; border-collapse: collapse"> 6 </td>
+    <td style = "border: 2px solid skyblue ; border-collapse: collapse"> Show all article categories :  </td>
+    <td style = "border: 2px solid skyblue ; border-collapse: collapse"> localhost:8080/articles/GetAllCategories </td>
+  </tr>
+
+  <tr>
+    <td style = "border: 2px solid skyblue ; border-collapse: collapse"> 7 </td>
+    <td style = "border: 2px solid skyblue ; border-collapse: collapse"> The number of articles in a category : </td>
+    <td style = "border: 2px solid skyblue ; border-collapse: collapse"> localhost:8080/articles/NumberArticles_Category/{category} </td>
+  </tr>
+
+  <tr>
+    <td style = "border: 2px solid skyblue ; border-collapse: collapse"> 8 </td>
+    <td style = "border: 2px solid skyblue ; border-collapse: collapse"> Delete an article using its reference : </td>
+    <td style = "border: 2px solid skyblue ; border-collapse: collapse"> localhost:8080/articles/DeleteArticleByReference/{ref}</td>
+  </tr>
+
+  <tr>
+    <td style = "border: 2px solid skyblue ; border-collapse: collapse"> 9 </td>
+    <td style = "border: 2px solid skyblue ; border-collapse: collapse"> Display the list of items in a price range : </td>
+    <td style = "border: 2px solid skyblue ; border-collapse: collapse"> localhost:8080/articles/SearchArticlesByRangingPrice/{price1}&{price2} </td>
+  </tr>
+</table>
+</body>
+</html>
